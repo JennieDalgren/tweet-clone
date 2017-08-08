@@ -1,0 +1,142 @@
+body {
+  background-color: rgb(244, 248, 249);
+  font-family: Helvetica;
+}
+
+.main {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(225, 232, 237);
+  border-radius: 5px;
+  width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.profile {
+  flex: 0 0 46px;
+}
+
+.profile img {
+  width: 36px;
+
+}
+
+.user {
+  flex: 0 0 314px;
+}
+
+.username {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.handler {
+  font-size: 14px;
+  color: rgb(104, 109, 129);
+  font-weight: normal;
+}
+
+.follow {
+  flex: 0 0 100px;
+
+}
+
+.icon-bird {
+  width: 18px;
+  height: 16px;
+  display: inline-block;
+  background-image: url('img/twitter-logo.jpg');
+  background-size: 100%;
+  margin-bottom: -2px;
+}
+
+.icon-validated {
+  width: 20px;
+  height: 20px;
+  margin-bottom: -2px;
+}
+.icon-account {
+  width: 7px;
+  height: 15px;
+}
+
+.icon-reply {
+  display: inline-block;
+  width: 15px;
+  height: 11px;
+  background-image: url("img/reply.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.icon-retweet {
+  display: inline-block;
+  width: 18px;
+  height: 11px;
+  background-image: url("img/retweet.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.icon-favorite {
+  display: inline-block;
+  width: 13px;
+  height: 12px;
+  background-image: url("img/favorite.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.followbtn {
+  color: rgb(85, 172, 238);
+  border: 1px solid rgb(85, 172, 238);
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.content {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.content span {
+  display: inline-block;
+  min-width: 100%;
+  line-height: 24px;
+}
+
+.time {
+  color: rgb(101, 116, 127);
+  font-size: 14px;
+}
+
+.footer a{
+  text-decoration: none;
+  color: rgb(105, 120, 130);
+  margin-right: 16px;
+  font-size: 14px;
+}
+
+
+
+
+
+/*tweet
+x background:        rgb(255, 255, 255)
+x border:            rgb(225, 232, 237)
+- user name:         rgb(0, 0, 0)
+- user account:      rgb(104, 109, 129)
+- text:              rgb(0, 0, 0)
+- date:              rgb(101, 116, 127)
+- bottom text color: rgb(105, 120, 130)
+- follow button:     rgb(85, 172, 238)*/
